@@ -1,0 +1,160 @@
+*::selection {
+  background: #fff2a8;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.btn {
+  background-color: #555;
+  font-family: Lato;
+  color: white;
+  font-size: 1rem;
+  padding: 5px 12px;
+  margin-bottom: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.btn:hover {
+  background-color: black;
+  font-weight: 800;
+}
+
+.cocktail-gif {
+  padding-left: 0.5rem;
+  width: 25%;
+  height: 25%;
+}
+
+.music-container {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 13px 30px; 
+  position: sticky;
+  z-index: 10;
+}
+
+.progress-container {
+  background: #aaaaaa;
+  cursor: pointer;
+  margin: 15px 40px;
+  height: 5px;
+  width: 25%;
+  border-radius: 20px;
+  margin-left: 5rem;
+}
+
+.progress {
+  background-color: #ffffff;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+  border-radius: 20px;
+}
+
+.music-info h4 {
+  font-size: larger;
+  color: white;
+  font-weight: 600;
+  margin-top: 3px;
+  margin-right: 5rem;
+}
+
+.action-btn {
+  border: 0;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.action-btn.action-btn-big {
+  color: white;
+  font-size: 20px;
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.rocket-animation {
+  display: inline-block;
+  animation: .2s ease infinite Wiggle;
+}
+
+.advantages {
+  line-height: 1.8rem;
+  }
+  
+.advantages li {
+  padding-left: 1rem;
+}
+
+.search-results {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: black;
+  padding: 0 3rem;
+}
+
+.cocktail-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 33.33333333%;
+}
+
+.cocktail-container img {
+  max-width: 50vw;
+  max-height: 50vh;
+  border-radius: 10%;
+  margin: 2rem 2rem;
+  background-color: rgba(54, 51, 51, 0.4);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.single-cocktail {
+  margin: 1rem 3rem;
+  block-size: auto;
+  text-align: center;
+}
+
+.cocktail-output {
+  max-width: 50vw;
+  max-height: 50vh;
+  display: block;
+  border-radius: 10%;
+  margin: 1rem auto;
+  background-color: rgba(54, 51, 51, 0.4);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes Wiggle {
+  0% {transform: rotate(0)}
+  25% {transform: rotate(-6deg)}
+  75% {transform: rotate(6deg)}
+  100% {transform: rotate(0)}
+}
+
+@media all and (max-width: 749px) {
+  .music-info, .navigation, .progress-container {
+    display: none;
+  }
+
+  .cocktail-gif {
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+  <title>Cocktail Finder - Explore over 600+ Cocktails</title>
+</head>
+<body>
+    <section class="music-container shadow-md" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+      <audio src="./music/Somewhere Over the Rainbow.mp3" id="audio"></audio>
+    </section>
+    <main class="text-gray-700 body-font">
+    <section class="container mx-auto flex px-5 py-20 md:flex-row flex-col">
+      <img src="./gif/cocktail.gif" class="cocktail-gif" alt="cocktail picture">
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-6 font-medium text-gray-1000"><strong>Explore over 600+ Cocktail Inspirations</strong></h1>
+        <p class="mb-3 leading-relaxed">Thirsty? We have hundreds and hundreds of delicious cocktails from expert bartenders around the world. No matter if you're looking for a classic cocktail, a punch for a party or an original concoction, we have a cocktail recipe for every taste and occasion, just a shake, stir or pour away!</p>
+        <div class="advantages">
+          <p><span class="rocket-animation">🚀</span> Explore 600+ cocktail inspirations and try them out yourself!</p>
+          <p><span class="rocket-animation">🚀</span> Enjoy our super fast search with under 100ms response time!</p>
+          <p><span class="rocket-animation">🚀</span> Look up certain visual impressions or taste your cocktail of the day!</p>
+        </div>
+        <br>
+        <div class="flex w-full md:justify-start justify-start">
+          <input class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-green-500 text-base px-6 lg:w-full xl:w-1/2 w-2/4" placeholder="Enter Cocktail Keyword" type="text" id="searchtext">
+          <button class="inline-flex text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg" id="search">Search<br>🔍</button>
+          <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg" id="random" style="margin-left: 1vw">Random<br>🔀</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="result-heading" id="result-heading"></div>
+  <div class="cocktail-list" id="cocktail-list"></div>
+  <div class="single-cocktail" id="single-cocktail"></div>
+  <script src="./script-cocktails.js"></script>
+  <script src="./script-audio.js"></script>
+</body>
+</html>
