@@ -7,6 +7,6 @@ Search and generate random cocktails from the [thecocktaildb.com](www.thecocktai
 - Firstly, Display UI with an explicit keyword cocktail search
 - Secondly, clickable random 'cocktail of the day' button
 - Thirdly, music player on navbar which plays/stops or skips between songs
+- Fourthly, Click on cocktail to show ingredients and recipe
 - Connect to API via fetch to retrieve cocktail data
 - Display cocktail information in DOM w/ image and title
-- In progress: Click on cocktail to show ingredients and recipe
