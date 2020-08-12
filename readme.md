@@ -1,6 +1,6 @@
 ## Cocktail Finder Info
 
-Search and generate random cocktails from the [thecocktaildb.com](www.thecocktaildb.com) API while listening to music (built with: HTML, CSS, Vanilla JS)
+Search and generate random cocktails from the [https://www.thecocktaildb.com/] API while listening to music (built with: HTML, CSS, Vanilla JS)
 
 ## Specifications
 
