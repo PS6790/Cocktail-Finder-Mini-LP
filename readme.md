@@ -3,7 +3,7 @@
 Search and generate random cocktails from the https://www.thecocktaildb.com/ API while listening to music (built with: HTML, CSS/Tailwind, Vanilla JS)
 
 ## Showcase:
-https://psimon123.github.io/Cocktail-Finder-with-Music-Player/
+Link: https://psimon123.github.io/Cocktail-Finder-with-Music-Player/
 
 ## Specifications:
 
