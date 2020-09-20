@@ -1,4 +1,4 @@
-## Cocktail Finder w/ Music Player Info:
+## Cocktail Finder:
 
 Search and generate random cocktails from the https://www.thecocktaildb.com/ API while listening to music (built with: HTML, CSS/Tailwind, Vanilla JS)
 
