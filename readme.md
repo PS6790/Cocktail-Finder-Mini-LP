@@ -1,8 +1,8 @@
-# Cocktail Finder:
+# Cocktail Finder Landing Page:
 
 Search and generate random cocktails via https://www.thecocktaildb.com/ API.
 
-The navigation bar also includes a music player which allows to listen to music songs.
+The navigation bar includes a self-built music player which allows to listen to songs.
 
 ## Live Demo
 https://psimon123.github.io/Cocktail-Finder/
