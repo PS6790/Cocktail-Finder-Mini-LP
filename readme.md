@@ -5,7 +5,7 @@ Search and generate random cocktails via https://www.thecocktaildb.com/ API.
 The navbar includes a self-built music player which allows to listen to preselected songs.
 
 ## Live Demo
-https://dev-pascal.github.io/Cocktail-Finder-LP/
+https://dev-pascal.github.io/Cocktail-Finder-Mini-LP/
 
 ## Specifications:
 * Display UI with an explicit keyword cocktail search
