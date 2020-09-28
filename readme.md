@@ -1,4 +1,4 @@
-# Cocktail Finder LP:
+# Cocktail Finder Mini LP:
 
 Search and generate random cocktails via https://www.thecocktaildb.com/ API.
 
