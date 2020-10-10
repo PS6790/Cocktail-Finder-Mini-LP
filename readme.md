@@ -1,6 +1,6 @@
 # Cocktail Finder Mini LP:
 
-Search and generate random cocktails via https://www.thecocktaildb.com/ API.
+Search and generate random cocktails with https://www.thecocktaildb.com/ API.
 
 The navbar includes a self-built music player which allows to listen to preselected songs.
 
@@ -16,6 +16,7 @@ https://dev-pascal.github.io/Cocktail-Finder-Mini-LP/
 ## Functionality:
 * Connect to API via fetch to retrieve cocktail data
 * Display cocktail information in DOM with image, title, recipe and ingredients
+* Play a small list of included music titles
 
 ## Built with
 * HTML
