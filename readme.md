@@ -16,7 +16,7 @@ https://dev-pascal.github.io/Cocktail-Finder-Mini-LP/
 ## Functionality:
 * Connect to API via fetch to retrieve cocktail data
 * Display cocktail information in DOM with image, title, recipe and ingredients
-* Play a small list of included music titles
+* Play a small list of preselected music titles
 
 ## Built with
 * HTML
